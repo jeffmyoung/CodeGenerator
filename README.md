@@ -11,13 +11,23 @@ code for ns-3.
 You need Qt 4 librarie to compile and use ns-3 topology generator.
 
 To build the project:
+
  $ qmake
+ 
  $ make 
 
+2) Run
+------------------
+
 To use it, simply run:
+
  $ ./ns-3-generator
 
+3) Documentation
+------------------
+
 To generate the API documentation (you need doxygen tool):
+
 $ doxygen Doxyfile
 
 The HTML generated documentation is located in doc/html/ directory of sources.
