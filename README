@@ -14,8 +14,14 @@ To build the project:
  $ qmake
  $ make 
 
+2) Run
+------------------
+
 To use it, simply run:
  $ ./ns-3-generator
+
+3) Documentation
+------------------
 
 To generate the API documentation (you need doxygen tool):
 $ doxygen Doxyfile
